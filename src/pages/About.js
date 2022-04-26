@@ -7,6 +7,10 @@ function AboutPage() {
       <p>Playlist statistics queries the Spotify public api to offer playlists to search. 
           It then performs further calls and calculations to display desired statistics on the playlist.
       </p>
+      <br/>
+      <br/>
+      <p>Social media links can be added here
+      </p>
     </>
   );
 }
