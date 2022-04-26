@@ -1,7 +1,7 @@
 header {
   position: fixed;
   color: white;
-  background-color: #333;
+  background-color: black;
   top: 0;
   width: 100%;
   height: 60px;
@@ -54,7 +54,7 @@ nav {
 }
 
 .navbar a:hover{
-  background-color: #111;
+  background-color: rgb(76, 76, 77);
   color: orange;
 }
 
@@ -75,8 +75,93 @@ main {
   margin: auto;
   padding: 10px;
   width: 75%;
+  text-align: center;
+  font-family:sans-serif;
 }
 
 #main-content h1{
-  text-align: center;
+  font-size: 300%;
+  padding: 50px;
+}
+
+#main-content p{
+  padding: 0px;
+}
+
+#main-content form {
+  position: auto;
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.search-bar div {
+  width: auto;
+  font-size: 125%;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.search-bar input[type=text] {
+  all: unset;
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  width: 80%;
+  border-bottom: 3px solid black;
+  text-align: left;
+}
+
+.search-bar button {
+  display: inline-block;
+  all: unset;
+  cursor: pointer;
+  font-size: 150%;
+}
+
+.search-bar button:hover {
+  color: orange;
+}
+
+.search-results ul {
+  list-style-type: none;
+  width: 50%;
+  height: 20em;
+  position: relative;
+  margin:auto;
+  margin-top: 4em;
+  padding-top:1px;
+  padding-left:0px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* Scrollbar customizations */
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.search-results li a {
+  border-radius: 10px;
+  margin-top: -1px;
+  text-decoration: none;
+  display: block;
+  font-size: 150%;
+  padding: 15px;
+  text-align: left;
+  color:black;
+}
+
+.search-results li a:hover {
+  background: #333;
+  color: white;
 }
