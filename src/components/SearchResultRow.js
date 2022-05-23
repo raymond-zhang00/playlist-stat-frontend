@@ -1,8 +1,8 @@
 import React from 'react';
 
-function SearchResultRow({result}) {
+function SearchResultRow({playlist}) {
     return (
-        <li><a href="/playlist">Test - {result.name}</a></li>
+        <li><a href="/playlist">Test - {playlist.name}</a></li>
     );
 }
 
